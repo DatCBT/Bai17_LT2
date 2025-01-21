@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 17 - Luyen tap 2</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f8f1f1; /* Nền màu nhẹ nhàng, lãng mạn */
+            color: #4a4a4a;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://cdn.pixabay.com/photo/2016/08/24/00/24/paris-1615336_960_720.jpg'); /* Hình nền Paris */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        header {
+            background-color: rgba(255, 182, 193, 0.8); /* Màu hồng dịu dàng */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 2rem;
+            font-style: italic;
+        }
+
+        .content {
+            background-color: rgba(255, 255, 255, 0.8); /* Nền trắng nhẹ, tinh tế */
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            margin: 40px auto;
+            padding: 30px;
+            width: 80%;
+            max-width: 800px;
+            text-align: justify;
+        }
+
+        .content h2 {
+            color: #ff6f61;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        .name {
+            font-style: italic; /* In nghiêng */
+            border: 1px solid #000; /* Đóng khung bằng đường viền màu đen */
+            padding: 2px; /* Thêm đệm xung quanh nội dung */
+            display: inline-block; /* Đảm bảo viền ôm sát nội dung */
+            color: #333; /* Màu chữ tối cho dễ đọc */
+        }
+
+        footer {
+            background-color: rgba(255, 182, 193, 0.8);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 1rem;
+            border-top: 3px solid #f8d7da;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bai 17 - Luyen tap 2</h1>
+    </header>
+
+    <div class="content">
+        <h2>Thực Hành Định Dạng Tên Riêng</h2>
+        <p><strong>Trong phần Thực hành, các tên riêng (tên người, tên tổ chức) cần được bổ sung định dạng đóng khung và in nghiêng. Em sẽ thực hiện các yêu cầu này như thế nào?</strong></p>
+
+        <p>Lời giải:</p>
+
+        <p>Để thực hiện yêu cầu này, em có thể sử dụng CSS như sau:</p>
+
+        <pre><code>
+.name {
+    font-style: italic; /* In nghiêng */
+    border: 1px solid #000; /* Đóng khung bằng đường viền màu đen */
+    padding: 2px; /* Thêm đệm xung quanh nội dung */
+    display: inline-block; /* Đảm bảo viền ôm sát nội dung */
+}
+        </code></pre>
+
+        <p>Với định dạng CSS trên, các tên riêng sẽ được hiển thị dưới dạng in nghiêng và có viền bao quanh, giúp chúng nổi bật hơn trong văn bản.</p>
+
+        <p>Ví dụ:</p>
+        <p><span class="name">Nguyễn Văn A</span> là tên của một người, còn <span class="name">Công ty ABC</span> là tên của một tổ chức.</p>
+    </div>
+
+</body>
+</html>
